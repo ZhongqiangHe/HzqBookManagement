@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fff0f0f0" >
+
+    <TextView
+        android:id="@+id/t_id"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/t_id"
+        android:background="#BFBFBF" />
+
+    <TextView
+        android:id="@+id/t_name"
+        android:layout_width="95sp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t_id"
+        android:layout_weight="10"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+    
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/t_name"
+        android:background="#BFBFBF" />
+
+    <TextView
+        android:id="@+id/t_author"
+        android:layout_width="95sp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t_name"
+        android:layout_weight="10"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+    
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@id/t_author"
+        android:background="#BFBFBF" />
+
+    <TextView
+        android:id="@+id/t_price"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t_author"
+        android:layout_weight="0"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

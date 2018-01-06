@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff0f0f0" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_add"
+        style="@style/ActionBar_Whole_Style_1" >
+
+        <TextView
+            android:id="@+id/top_add"
+            style="@style/ActionBar_Title_Style_1"
+            android:text="@string/top_add" />
+
+        <TextView
+            android:id="@+id/setting_about_back"
+            style="@style/ActionBar_Left_Style_1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout_add"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="22.0dip" >
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/addbook_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@drawable/global_input_top"
+                    android:drawablePadding="15.0dip"
+                    android:ems="10"
+                    android:hint="@string/hint_addbooks"
+                    android:inputType="text"
+                    android:paddingBottom="2.0dip"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="15.0dip"
+                    android:paddingTop="2.0dip"
+                    android:singleLine="true"
+                    android:textColorHint="#ff999999"
+                    android:textSize="16.0sp" />
+
+                <EditText
+                    android:id="@+id/addauthor_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/addbook_edit"
+                    android:layout_marginBottom="2.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:background="@drawable/global_input_top"
+                    android:drawablePadding="15.0dip"
+                    android:ems="10"
+                    android:hint="@string/hint_addauthor"
+                    android:paddingBottom="2.0dip"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="15.0dip"
+                    android:paddingTop="2.0dip"
+                    android:singleLine="true"
+                    android:textColorHint="#ff999999"
+                    android:textSize="16.0sp" />
+
+                <EditText
+                    android:id="@+id/addprice_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/addauthor_edit"
+                    android:background="@drawable/global_input_top"
+                    android:drawablePadding="15.0dip"
+                    android:ems="10"
+                    android:hint="@string/hint_addprice"
+                    android:paddingBottom="2.0dip"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="15.0dip"
+                    android:paddingTop="2.0dip"
+                    android:singleLine="true"
+                    android:textColorHint="#ff999999"
+                    android:textSize="16.0sp" >
+
+                    <requestFocus />
+                </EditText>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout_add"
+        android:layout_marginTop="37dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_custom"
+            android:singleLine="true"
+            android:text="@string/btn_add"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+
+        <Button
+            android:id="@+id/btn_abandon"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_custom"
+            android:singleLine="true"
+            android:text="@string/btn_abandon"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.jssvc.hzqbookmanagement_v5"
+    android:versionCode="7"
+    android:versionName="1.0.7" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Login"></activity>
+        <activity android:name="AddBooks"></activity>
+        <activity android:name="Register"></activity>
+        <activity android:name="Main"></activity>
+        <activity android:name="CreateBookStore"></activity>
+        <activity android:name="UpdateBooks"></activity>
+        <activity android:name="QueryBooks"></activity>
+        <activity android:name="BrowseBooks"></activity>
+        <activity android:name="QueryBooksListView"></activity>
+        <activity android:name="DeleteBooksListView"></activity>
+        <activity android:name="DeleteBooks"></activity>
+        <activity android:name="Head"></activity>
+    </application>
+
+</manifest>

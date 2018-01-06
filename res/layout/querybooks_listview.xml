@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff0f0f0" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_querylistview"
+        style="@style/ActionBar_Whole_Style_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/top_querylistview"
+            style="@style/ActionBar_Title_Style_1"
+            android:text="@string/top_querylistview" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/ui_split" />
+
+        <TextView
+            android:id="@+id/setting_about_back"
+            style="@style/ActionBar_Left_Style_1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout_querylistview"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/t_id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/t_id"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/t_name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t_author_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/t_author"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/t_price"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/t_listview"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_weight="0.71" >
+    </ListView>
+
+</LinearLayout>

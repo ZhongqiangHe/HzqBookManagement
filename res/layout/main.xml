@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0f0f0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_main"
+        style="@style/ActionBar_Whole_Style_1" >
+
+        <TextView
+            android:id="@+id/top_main"
+            style="@style/ActionBar_Title_Style_1"
+            android:text="@string/top_main" />
+
+        <TextView
+            android:id="@+id/setting_about_back"
+            style="@style/ActionBar_Left_Style_1" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff0f0f0" >
+    </ListView>
+
+</LinearLayout>

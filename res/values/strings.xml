@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">图书管理系统</string>
+    <string name="top_name">登录</string>
+    <string name="hint_username">账号</string>
+    <string name="hint_userpasswd">密码</string>
+    <string name="btn_login">登录</string>
+    <string name="newuser">新用户注册</string>
+    <string name="top_register">注册</string>
+    <string name="hint_registername">请输入注册账户</string>
+    <string name="hint_registerpasswd">请输入注册密码</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_back">返回</string>
+    <string name="top_add">添加图书</string>
+    <string name="hint_addbooks">请输入书名</string>
+    <string name="hint_addauthor">请输入作者</string>
+    <string name="hint_addprice">请输入价格</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_abandon">放弃</string>
+    <string name="top_main">主界面</string>
+    <string name="top_update">更新图书</string>
+    <string name="hint_updatebooks">请输入书名</string>
+    <string name="hint_updateauthor">请输入作者</string>
+    <string name="hint_updateprice">请输入价格</string>
+    <string name="btn_update">更新</string>
+    <string name="top_query">查询图书</string>
+    <string name="hint_querybooks">请输入要查询的书名</string>
+    <string name="btn_search">搜索</string>
+    <string name="top_querylistview">查询结果</string>
+    <string name="t_id">编号</string>
+    <string name="t_name">书名</string>
+    <string name="t_author">作者</string>
+    <string name="t_price">价格</string>
+    <string name="top_delete">删除图书</string>
+    <string name="hint_deletebooks">请输入要删除的书名</string>
+    <string name="top_head">开发者个人信息</string>
+</resources>
