@@ -1,4 +1,4 @@
-# HzqBookManagement_v5
+# HzqBookManagement
 Android图书管理系统
 
 [**下载地址**](http://sj.qq.com/myapp/detail.htm?apkName=cn.edu.jssvc.hzqbookmanagement_v5)
